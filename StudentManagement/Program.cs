@@ -9,6 +9,8 @@ builder.Services.AddDbContext<StudentContext>(options =>
     options.UseSqlServer(connectionString));
 
 builder.Services.AddControllers();
+builder.Services.AddEndpointsApiExplorer(); // Swaggerin aktivointi
+builder.Services.AddSwaggerGen();          // Swaggerin aktivointi
 
 var app = builder.Build();
 
@@ -16,6 +18,8 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.UseDeveloperExceptionPage();
+    app.UseSwagger();                      // Swaggerin käyttö
+    app.UseSwaggerUI();                    // Swaggerin käyttö
 }
 
 app.UseHttpsRedirection();
