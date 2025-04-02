@@ -162,3 +162,6 @@ C:\Users\henri\Downloads\Simple-C-Sharp-Backend\StudentManagement\obj\Debug\net9
 C:\Users\henri\Downloads\Simple-C-Sharp-Backend\StudentManagement\obj\Debug\net9.0\StudentManagement.pdb
 C:\Users\henri\Downloads\Simple-C-Sharp-Backend\StudentManagement\obj\Debug\net9.0\StudentManagement.genruntimeconfig.cache
 C:\Users\henri\Downloads\Simple-C-Sharp-Backend\StudentManagement\obj\Debug\net9.0\ref\StudentManagement.dll
+C:\Users\henri\Downloads\Simple-C-Sharp-Backend\StudentManagement\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\henri\Downloads\Simple-C-Sharp-Backend\StudentManagement\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\henri\Downloads\Simple-C-Sharp-Backend\StudentManagement\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll

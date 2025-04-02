@@ -1,0 +1,49 @@
+# Visual Studio -projektitiedostot
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build-kansiot
+bin/
+obj/
+out/
+
+# .NET Core -tiedostot
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Lokit ja tilapäistiedostot
+*.log
+*.tlog
+*.ide
+*.cache
+*.pdb
+
+# Secrets ja konfiguraatiot
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.json
+
+# Paketinhallinnan tiedostot
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-spesifiset tiedostot
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# JetBrains IDE:t
+.idea/
+*.iml
+
+# Resurssit ja muut
+*.db
+*.bak
+*.mdf
+*.ldf
